@@ -1,10 +1,12 @@
 import React from 'react';
 
+import '../css/HomePage.css';
+
 function HomePage() {
     return (
-        <div>
-            <img style={{width: '100%', height: '100%'}} src={require('../assets/jtlgroupphoto.jpg')} />
+        <div className="title">
         </div>
+
     )
 }
 
