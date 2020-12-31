@@ -1,22 +1,16 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
-// import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 import HomePage from './components/HomePage';
+import MatthewBoda from './components/MatthewBoda';
 import './App.css';
 
 function App() {
   return (
-    // <BrowserRouter>
-    // <Switch>
-    //   <Route path="/">
-    //     <HomePage />
-    //   </Route>
-    // </Switch>
-    // </BrowserRouter>
-    <map>
-      <HomePage />
-    </map>
+    <BrowserRouter>
+      <Route path="/" exact component={HomePage} />
+      <Route path="/MatthewBoda" exact component={MatthewBoda} />
+    </BrowserRouter>
   );
 }
 

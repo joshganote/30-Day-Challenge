@@ -1,27 +1,25 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 import '../css/HomePage.css';
 
-function HomePage() {
-
-    const handleClickOne = () => {
-        console.log("Image 1")
-    }
-    const handleClickTwo = () => {
-        console.log("Image 2")
+const HomePage = () => {
+    const history = useHistory();
+    const handleNavigate = () => {
+      history.push("/MatthewBoda");
     }
 
     return (
         <div className="bkg-image">
             <h1 className="header">JTL</h1>
             <div className="btn-one-container">
-            <button onClick={handleClickOne} className="bkg-image_zone1"></button>
+                <button onClick={handleNavigate} className="bkg-image_zone1"></button>
             </div>
         </div>
     )
 }
 
-export default HomePage
+export default HomePage;
 
 
 // window.addEventListener('mousemove', function (e) {
