@@ -14,7 +14,9 @@ function App() {
     //   </Route>
     // </Switch>
     // </BrowserRouter>
-    <HomePage />
+    <map>
+      <HomePage />
+    </map>
   );
 }
 
