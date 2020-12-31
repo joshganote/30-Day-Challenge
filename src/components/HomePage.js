@@ -9,25 +9,37 @@ const HomePage = () => {
     // Change to Jared URL
     const navigateToJared = () => {
         history.push("/JaredLogan");
-      }
+    }
     const navigateToMatt = () => {
-      history.push("/MatthewBoda");
+        history.push("/MatthewBoda");
     }
     const navigateToCallan = () => {
         history.push("/CallanSearcy");
-      }
+    }
+    const navigateToZane = () => {
+        history.push("/ZaneCallister");
+    }
+    const navigateToKyl = () => {
+        history.push("/KylMeans");
+    }
 
     return (
         <div className="bkg-image">
             <h1 className="home-header">JTL</h1>
             <div className="jared-container">
-                <button onClick={navigateToJared} className="bkg-image_zone1"></button>
+                <button onClick={navigateToJared} className="zone1"></button>
             </div>
             <div className="matt-container">
-                <button onClick={navigateToMatt} className="bkg-image_zone2"></button>
+                <button onClick={navigateToMatt} className="zone2"></button>
             </div>
             <div className="callan-container">
-                <button onClick={navigateToCallan} className="bkg-image_zone3"></button>
+                <button onClick={navigateToCallan} className="zone3"></button>
+            </div>
+            <div className="zane-container">
+                <button onClick={navigateToZane} className="zone4"></button>
+            </div>
+            <div className="kyl-container">
+                <button onClick={navigateToKyl} className="zone5"></button>
             </div>
         </div>
     )

@@ -26,7 +26,7 @@
   display: inline;
   white-space: nowrap;
 }
-.bkg-image_zone1 {
+.zone1 {
   min-width: 140px;
   min-height: 470px;
   position: absolute;
@@ -38,7 +38,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .bkg-image_zone1 {
+  .zone1 {
     display: none;
   }
 }
@@ -47,7 +47,7 @@
   display: inline;
   resize: inherit;
 }
-.bkg-image_zone2 {
+.zone2 {
   position: absolute;
   width: 12%;
   height: 60%;
@@ -59,7 +59,7 @@
 }
 
 @media screen and (max-width: 850px) {
-  .bkg-image_zone2 {
+  .zone2 {
     display: none;
   }
 }
@@ -68,7 +68,7 @@
   display: inline;
   resize: inherit;
 }
-.bkg-image_zone3 {
+.zone3 {
   position: absolute;
   width: 12%;
   height: 90%;
@@ -80,7 +80,49 @@
 }
 
 @media screen and (max-width: 750px) {
-  .bkg-image_zone3 {
+  .zone3 {
+    display: none;
+  }
+}
+
+.zane-container {
+  display: inline;
+  resize: inherit;
+}
+.zone4 {
+  position: absolute;
+  width: 12%;
+  height: 70%;
+  top: 220px;
+  left: 1130px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 750px) {
+  .zone4 {
+    display: none;
+  }
+}
+
+.kyl-container {
+  display: inline;
+  resize: inherit;
+}
+.zone5 {
+  position: absolute;
+  width: 12%;
+  height: 75%;
+  top: 160px;
+  left: 1310px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 750px) {
+  .zone5 {
     display: none;
   }
 }

@@ -1,5 +1,5 @@
-.matt-background {
-  background-image: url(../assets/matt.jpg);
+.zane-background {
+  background-image: url(../assets/zane.jpg);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -7,7 +7,7 @@
   background-position: center;
 }
 
-.header {
+.zane-header {
   font-family: 'DM Serif Display', serif;
   color: #FFFFFF;
   font-size: 80px;
