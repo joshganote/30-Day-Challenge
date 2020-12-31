@@ -10,7 +10,16 @@
 .header {
   font-family: 'DM Serif Display', serif;
   color: #FFFFFF;
-  font-size: 100px;
+  font-size: 80px;
   margin: 0;
   padding-left: 30px;
+}
+
+.back-arrow {
+  position: absolute;
+  right: 0;
+  padding-right: 10px;
+  top: 25px;
+  cursor: pointer;
+  opacity: 0.75;
 }
