@@ -13,15 +13,21 @@ const HomePage = () => {
     const navigateToMatt = () => {
       history.push("/MatthewBoda");
     }
+    const navigateToCallan = () => {
+        history.push("/CallanSearcy");
+      }
 
     return (
         <div className="bkg-image">
             <h1 className="home-header">JTL</h1>
-            <div className="btn-one-container">
+            <div className="jared-container">
                 <button onClick={navigateToJared} className="bkg-image_zone1"></button>
             </div>
-            <div className="btn-two-container">
+            <div className="matt-container">
                 <button onClick={navigateToMatt} className="bkg-image_zone2"></button>
+            </div>
+            <div className="callan-container">
+                <button onClick={navigateToCallan} className="bkg-image_zone3"></button>
             </div>
         </div>
     )
