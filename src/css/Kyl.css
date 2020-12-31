@@ -1,5 +1,5 @@
-.matt-background {
-  background-image: url(../assets/matt.jpg);
+.kyl-background {
+  background-image: url(../assets/kyl.jpg);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -7,7 +7,7 @@
   background-position: center;
 }
 
-.header {
+.kyl-header {
   font-family: 'DM Serif Display', serif;
   color: #FFFFFF;
   font-size: 80px;

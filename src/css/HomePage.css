@@ -7,49 +7,10 @@
   background-position: center;
 }
 
-.btn-one-container {
-  display: inline;
-  resize: inherit;
-}
-.bkg-image_zone1 {
-  position: absolute;
-  width: 10%;
-  height: 70%;
-  top: 200px;
-  left: 10px;
-  background-color: Transparent;
-  cursor: pointer;
-  outline: none;
-}
-
-@media screen and (max-width: 900px) {
-  .bkg-image_zone1 {
-    display: none;
-  }
-}
-
-/* .btn-two-container {
-  display: inline;
-  top: 60px;
-}
-.bkg-image_zone2 {
-  position: absolute;
-  width: 8vw;
-  height: 60vh;
-  background-color: Transparent;
-  cursor: pointer;
-  outline: none;
-}
-@media screen and (max-width: 750px) {
-  .bkg-image_zone2 {
-    display: none;
-  }
-} */
-
-.header {
+.home-header {
   font-family: 'DM Serif Display', serif;
   color: #FFFFFF;
-  font-size: 100px;
+  font-size: 80px;
   margin: 0;
   padding-left: 30px;
 }
@@ -59,4 +20,109 @@
   width: 20%;
   background-color: Transparent;
   cursor: pointer;
+}
+
+.jared-container {
+  display: inline;
+  white-space: nowrap;
+}
+.zone1 {
+  min-width: 140px;
+  min-height: 470px;
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  background-color: Transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 900px) {
+  .zone1 {
+    display: none;
+  }
+}
+
+.matt-container {
+  display: inline;
+  resize: inherit;
+}
+.zone2 {
+  position: absolute;
+  width: 12%;
+  height: 60%;
+  top: 260px;
+  left: 215px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 850px) {
+  .zone2 {
+    display: none;
+  }
+}
+
+.callan-container {
+  display: inline;
+  resize: inherit;
+}
+.zone3 {
+  position: absolute;
+  width: 12%;
+  height: 90%;
+  top: 60px;
+  left: 460px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 750px) {
+  .zone3 {
+    display: none;
+  }
+}
+
+.zane-container {
+  display: inline;
+  resize: inherit;
+}
+.zone4 {
+  position: absolute;
+  width: 12%;
+  height: 70%;
+  top: 220px;
+  left: 1130px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 750px) {
+  .zone4 {
+    display: none;
+  }
+}
+
+.kyl-container {
+  display: inline;
+  resize: inherit;
+}
+.zone5 {
+  position: absolute;
+  width: 12%;
+  height: 75%;
+  top: 160px;
+  left: 1310px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 750px) {
+  .zone5 {
+    display: none;
+  }
 }

@@ -5,15 +5,41 @@ import '../css/HomePage.css';
 
 const HomePage = () => {
     const history = useHistory();
-    const handleNavigate = () => {
-      history.push("/MatthewBoda");
+
+    // Change to Jared URL
+    const navigateToJared = () => {
+        history.push("/JaredLogan");
+    }
+    const navigateToMatt = () => {
+        history.push("/MatthewBoda");
+    }
+    const navigateToCallan = () => {
+        history.push("/CallanSearcy");
+    }
+    const navigateToZane = () => {
+        history.push("/ZaneCallister");
+    }
+    const navigateToKyl = () => {
+        history.push("/KylMeans");
     }
 
     return (
         <div className="bkg-image">
-            <h1 className="header">JTL</h1>
-            <div className="btn-one-container">
-                <button onClick={handleNavigate} className="bkg-image_zone1"></button>
+            <h1 className="home-header">JTL</h1>
+            <div className="jared-container">
+                <button onClick={navigateToJared} className="zone1"></button>
+            </div>
+            <div className="matt-container">
+                <button onClick={navigateToMatt} className="zone2"></button>
+            </div>
+            <div className="callan-container">
+                <button onClick={navigateToCallan} className="zone3"></button>
+            </div>
+            <div className="zane-container">
+                <button onClick={navigateToZane} className="zone4"></button>
+            </div>
+            <div className="kyl-container">
+                <button onClick={navigateToKyl} className="zone5"></button>
             </div>
         </div>
     )
