@@ -9,12 +9,12 @@
 
 .btn-one-container {
   display: inline;
-  resize: inherit;
+  white-space: nowrap;
 }
 .bkg-image_zone1 {
+  min-width: 140px;
+  min-height: 470px;
   position: absolute;
-  width: 10%;
-  height: 70%;
   top: 200px;
   left: 10px;
   background-color: Transparent;
@@ -28,25 +28,29 @@
   }
 }
 
-/* .btn-two-container {
+.btn-two-container {
   display: inline;
-  top: 60px;
+  resize: inherit;
 }
 .bkg-image_zone2 {
   position: absolute;
-  width: 8vw;
-  height: 60vh;
-  background-color: Transparent;
+  width: 12%;
+  height: 60%;
+  top: 260px;
+  left: 215px;
+  background-color: transparent;
   cursor: pointer;
   outline: none;
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (max-width: 850px) {
   .bkg-image_zone2 {
     display: none;
   }
-} */
+}
 
-.header {
+
+.home-header {
   font-family: 'DM Serif Display', serif;
   color: #FFFFFF;
   font-size: 100px;
