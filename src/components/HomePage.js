@@ -4,7 +4,8 @@ import '../css/HomePage.css';
 
 function HomePage() {
     return (
-        <div className="title">
+        <div className="bkg-image">
+            <h1 className="header">JTL</h1>
         </div>
 
     )
