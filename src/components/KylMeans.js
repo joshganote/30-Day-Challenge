@@ -1,7 +1,7 @@
 import React from 'react';
 import HomeNavigation from '../utils/HomeNavigation';
 
-import '../css/Kyl.css';
+import '../css/KylMeans.css';
 
 const KylMeans = () => {
 
