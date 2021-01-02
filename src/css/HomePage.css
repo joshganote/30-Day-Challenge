@@ -15,6 +15,7 @@
   padding-left: 30px;
 }
 
+/* ----- Jared -----*/
 .hide {
   display: none;
 }
@@ -27,46 +28,20 @@
   font-size: 20px;
   top: 7%;
   left: 5%;
+  animation-duration: 1s;
+  animation-name: slideUpJared;
 }
 
-.matt-container:hover + .hide{
-  position: relative;
-  display: block;
-  color:white;
-  font-family: 'DM Serif Display', serif;
-  font-size: 20px;
-  top: 14%;
-  left: 22%;
-}
-
-.callan-container:hover + .hide{
-  position: relative;
-  display: block;
-  color:white;
-  font-family: 'DM Serif Display', serif;
-  font-size: 20px;
-  top: -16%;
-  left: 36%;
-}
-
-.zane-container:hover + .hide{
-  position: relative;
-  display: block;
-  color:white;
-  font-family: 'DM Serif Display', serif;
-  font-size: 20px;
-  left: 83%;
-  top: 8%;
-}
-
-.kyl-container:hover + .hide{
-  position: relative;
-  display: block;
-  color:white;
-  font-family: 'DM Serif Display', serif;
-  font-size: 20px;
-  top: 35%;
-  left: 94%;
+@keyframes slideUpJared {
+  from {
+    top: 10%;
+    opacity: 25%;
+  }
+  to {
+    top: 7%;
+    left: 5%;
+    opacity: 100%;
+  }
 }
 
 .jared-container {
@@ -84,11 +59,34 @@
   outline: none;
 }
 
-
-
 @media screen and (max-width: 900px) {
   .zone1 {
     display: none;
+  }
+}
+
+/* ----- Matt -----*/
+.matt-container:hover + .hide{
+  position: relative;
+  display: block;
+  color:white;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  top: 14%;
+  left: 22%;
+  animation-duration: 1s;
+  animation-name: slideUpMatt;
+}
+
+@keyframes slideUpMatt {
+  from {
+    top: 17%;
+    opacity: 25%;
+  }
+  to {
+    top: 14%;
+    left: 22%;
+    opacity: 100%;
   }
 }
 
@@ -113,6 +111,31 @@
   }
 }
 
+/* ----- Callan -----*/
+.callan-container:hover + .hide{
+  position: relative;
+  display: block;
+  color:white;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  top: -16%;
+  left: 36%;
+  animation-duration: 1s;
+  animation-name: slideUpCallan;
+}
+
+@keyframes slideUpCallan {
+  from {
+    top: -13%;
+    opacity: 25%;
+  }
+  to {
+    top: -16%;
+    left: 36%;
+    opacity: 100%;
+  }
+}
+
 .callan-container {
   display: inline;
   resize: inherit;
@@ -134,6 +157,31 @@
   }
 }
 
+/* ----- Zane -----*/
+.zane-container:hover + .hide{
+  position: relative;
+  display: block;
+  color:white;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  left: 83%;
+  top: 8%;
+  animation-duration: 1s;
+  animation-name: slideUpZane;
+}
+
+@keyframes slideUpZane {
+  from {
+    top: 11%;
+    opacity: 25%;
+  }
+  to {
+    top: 8%;
+    left: 83%;
+    opacity: 100%;
+  }
+}
+
 .zane-container {
   display: inline;
   resize: inherit;
@@ -141,8 +189,8 @@
 .zone4 {
   position: absolute;
   width: 12%;
-  height: 65%;
-  top: 230px;
+  height: 67%;
+  top: 220px;
   left: 1130px;
   background-color: transparent;
   cursor: pointer;
@@ -155,16 +203,41 @@
   }
 }
 
+/* ----- Kyl -----*/
+.kyl-container:hover + .hide{
+  position: relative;
+  display: block;
+  color:white;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  top: 35%;
+  left: 94%;
+  animation-duration: 1s;
+  animation-name: slideUpKyl;
+}
+
+@keyframes slideUpKyl {
+  from {
+    top: 38%;
+    opacity: 25%;
+  }
+  to {
+    top: 35%;
+    left: 94%;
+    opacity: 100%;
+  }
+}
+
 .kyl-container {
   display: inline;
   resize: inherit;
 }
 .zone5 {
   position: absolute;
-  width: 12%;
+  width: 8%;
   height: 75%;
   top: 160px;
-  left: 1310px;
+  left: 1320px;
   background-color: transparent;
   cursor: pointer;
   outline: none;
