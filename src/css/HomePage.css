@@ -15,11 +15,58 @@
   padding-left: 30px;
 }
 
-.img-one {
+.hide {
+  display: none;
+}
+
+.jared-container:hover + .hide{
   position: relative;
-  width: 20%;
-  background-color: Transparent;
-  cursor: pointer;
+  display: block;
+  color:white;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  top: 7%;
+  left: 5%;
+}
+
+.matt-container:hover + .hide{
+  position: relative;
+  display: block;
+  color:white;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  top: 14%;
+  left: 22%;
+}
+
+.callan-container:hover + .hide{
+  position: relative;
+  display: block;
+  color:white;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  top: -16%;
+  left: 36%;
+}
+
+.zane-container:hover + .hide{
+  position: relative;
+  display: block;
+  color:white;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  left: 83%;
+  top: 8%;
+}
+
+.kyl-container:hover + .hide{
+  position: relative;
+  display: block;
+  color:white;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  top: 35%;
+  left: 94%;
 }
 
 .jared-container {
@@ -30,12 +77,14 @@
   min-width: 140px;
   min-height: 470px;
   position: absolute;
-  top: 200px;
+  top: 210px;
   left: 10px;
   background-color: Transparent;
   cursor: pointer;
   outline: none;
 }
+
+
 
 @media screen and (max-width: 900px) {
   .zone1 {
@@ -92,8 +141,8 @@
 .zone4 {
   position: absolute;
   width: 12%;
-  height: 70%;
-  top: 220px;
+  height: 65%;
+  top: 230px;
   left: 1130px;
   background-color: transparent;
   cursor: pointer;

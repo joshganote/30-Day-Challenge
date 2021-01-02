@@ -5,8 +5,6 @@ import '../css/HomePage.css';
 
 const HomePage = () => {
     const history = useHistory();
-
-    // Change to Jared URL
     const navigateToJared = () => {
         history.push("/JaredLogan");
     }
@@ -29,17 +27,32 @@ const HomePage = () => {
             <div className="jared-container">
                 <button onClick={navigateToJared} className="zone1"></button>
             </div>
+            <div className="hide">
+                <p>Jared</p>
+            </div>
             <div className="matt-container">
                 <button onClick={navigateToMatt} className="zone2"></button>
+            </div>
+            <div className="hide">
+                <p>Matt</p>
             </div>
             <div className="callan-container">
                 <button onClick={navigateToCallan} className="zone3"></button>
             </div>
+            <div className="hide">
+                <p>Callan</p>
+            </div>
             <div className="zane-container">
                 <button onClick={navigateToZane} className="zone4"></button>
             </div>
+            <div className="hide">
+                <p>Zane</p>
+            </div>
             <div className="kyl-container">
                 <button onClick={navigateToKyl} className="zone5"></button>
+            </div>
+            <div className="hide">
+                <p>Kyl</p>
             </div>
         </div>
     )
