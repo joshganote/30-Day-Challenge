@@ -6,9 +6,11 @@ import '../css/ZaneCallister.css';
 const ZaneCallister = () => {
 
   return (
-    <div className="zane-background">
-      <h1 className="zane-header">Zane</h1>
-      <HomeNavigation />
+    <div className="bkg-image">
+      <div className="zane-background">
+        <h1 className="header">Zane Callister</h1>
+        <HomeNavigation />
+      </div>
     </div>
   )
 }

@@ -23,7 +23,7 @@ const HomePage = () => {
 
     return (
         <div className="bkg-image">
-            <h1 className="home-header">JTL</h1>
+            <h1 className="header">JTL</h1>
             <div className="jared-container">
                 <button onClick={navigateToJared} className="zone1"></button>
             </div>
