@@ -5,10 +5,12 @@ import '../css/JaredLogan.css';
 
 const JaredLogan = () => {
 
-  return(
-    <div className="jared-background">
-      <h1 className="jared-header">Jared Logan</h1>
-      <HomeNavigation />
+  return (
+    <div className="bkg-image">
+      <div className="jared-background">
+        <h1 className="header">Jared Logan</h1>
+        <HomeNavigation />
+      </div>
     </div>
   )
 }

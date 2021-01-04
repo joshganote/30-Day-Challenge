@@ -1,0 +1,34 @@
+.leave-page {
+  background-image: url(../assets/background.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  animation-name: exitPage;
+  animation-duration: 2s;
+}
+
+.leave-page h1 {
+  font-family: 'DM Serif Display', serif;
+  color: #FFFFFF;
+  font-size: 80px;
+  margin: 0;
+  padding-left: 30px;
+  display: block;
+}
+
+@keyframes exitPage {
+  from {
+    width: 100%;
+    height: 100%;
+  }
+  to {
+    width: 100%;
+    height: 0%;
+  }
+}
+
+.page-header {
+  display: none;
+}
