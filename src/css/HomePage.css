@@ -1,9 +1,14 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
 .bkg-image {
-  background-image: url(../assets/background-big.jpg);
+  background: center top no-repeat url(../assets/background-big.jpg);
   height: 100%;
   width: 100%;
   position: absolute;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -22,7 +27,6 @@
 }
 
 .jared-container:hover + .hide{
-  position: relative;
   display: block;
   color:white;
   font-family: 'DM Serif Display', serif;
@@ -52,23 +56,21 @@
 .zone1 {
   width: 10%;
   height: 65%;
-  position: absolute;
   top: 210px;
   left: 10px;
   background-color: Transparent;
   cursor: pointer;
   outline: none;
 }
-
+/* 
 @media screen and (max-width: 900px) {
   .zone1 {
     display: none;
   }
-}
+} */
 
 /* ----- Matt -----*/
 .matt-container:hover + .hide{
-  position: relative;
   display: block;
   color:white;
   font-family: 'DM Serif Display', serif;
@@ -96,7 +98,6 @@
   resize: inherit;
 }
 .zone2 {
-  position: absolute;
   width: 12%;
   height: 60%;
   top: 260px;
@@ -106,15 +107,14 @@
   outline: none;
 }
 
-@media screen and (max-width: 850px) {
+/* @media screen and (max-width: 850px) {
   .zone2 {
     display: none;
   }
-}
+} */
 
 /* ----- Callan -----*/
 .callan-container:hover + .hide{
-  position: relative;
   display: block;
   color:white;
   font-family: 'DM Serif Display', serif;
@@ -142,7 +142,6 @@
   resize: inherit;
 }
 .zone3 {
-  position: absolute;
   width: 12%;
   height: 90%;
   top: 60px;
@@ -152,15 +151,14 @@
   outline: none;
 }
 
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
   .zone3 {
     display: none;
   }
-}
+} */
 
 /* ----- Zane -----*/
 .zane-container:hover + .hide{
-  position: relative;
   display: block;
   color:white;
   font-family: 'DM Serif Display', serif;
@@ -188,7 +186,6 @@
   resize: inherit;
 }
 .zone4 {
-  position: absolute;
   width: 12%;
   height: 67%;
   top: 220px;
@@ -198,15 +195,14 @@
   outline: none;
 }
 
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
   .zone4 {
     display: none;
   }
-}
+} */
 
 /* ----- Kyl -----*/
 .kyl-container:hover + .hide{
-  position: relative;
   display: block;
   color:white;
   font-family: 'DM Serif Display', serif;
@@ -234,7 +230,6 @@
   resize: inherit;
 }
 .zone5 {
-  position: absolute;
   width: 8%;
   height: 75%;
   top: 160px;
@@ -244,8 +239,8 @@
   outline: none;
 }
 
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
   .zone5 {
     display: none;
   }
-}
+} */

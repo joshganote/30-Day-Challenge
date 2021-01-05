@@ -7,7 +7,7 @@ const CallanSearcy = () => {
 
   return (
     <div className="bkg-image">
-      <div className="callan-background">
+      <div className="background callan">
         <h1 className="header">Callan Searcy</h1>
         <HomeNavigation />
       </div>
