@@ -1,34 +1,113 @@
 .leave-page {
-  background-image: url(../assets/background-big.jpg);
+  background-image: url(../assets/new-background-big.jpg);
   width: 100%;
   height: 100%;
   position: absolute;
   background-size: cover;
   background-position: center;
   animation-name: exitPage;
-  animation-duration: 2s;
-}
-
-.leave-page h1 {
-  font-family: 'DM Serif Display', serif;
-  color: #FFFFFF;
-  font-size: 80px;
-  margin: 0;
-  padding-left: 30px;
-  display: block;
+  animation-duration: 1s;
 }
 
 @keyframes exitPage {
   from {
-    width: 100%;
+    bottom: -100%;
     height: 100%;
   }
   to {
-    width: 100%;
-    height: 0%;
+    bottom: 0%;
+    height: 100%;
   }
 }
 
-.page-header {
-  display: none;
+.leave-page h1 {
+  font-family: 'DM Serif Display', sans-serif;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 14vw;
+  height: 14vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 8px;
+  color: rgba(94, 89, 84, 0.68);
+  font-size: 6vw;
+  line-height: 14vh;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+@media screen and (max-width: 1080px) {
+  .leave-page h1 {
+    top: 20px;
+    height: 10vh;
+    padding-top: 0px;
+    line-height: 10vh;
+    font-family: 'DM Serif Display', sans-serif;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .leave-page h1 {
+    top: 20px;
+    height: 10vh;
+    padding-top: 0px;
+    line-height: 10vh;
+    font-family: 'DM Serif Display', sans-serif;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .leave-page h1 {
+    left: 20px;
+    top: 20px;
+    width: 60vw;
+    height: 8vh;
+    line-height: 8vh;
+    font-family: 'DM Serif Display', sans-serif;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .leave-page h1 {
+    height: 5vh;
+    line-height: 5vh;
+    left: 3%;
+    font-family: 'DM Serif Display', sans-serif;
+  }
+}
+
+@media screen and (max-width: 289px) {
+  .leave-page h1 {
+    height: 5vh;
+    line-height: 5vh;
+    left: 3%;
+    font-family: 'DM Serif Display', sans-serif;
+  }
+}
+
+.leave-page {
+  background-image: url(../assets/new-background-big.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  animation-name: exitPage;
+  animation-duration: 1s;
+}
+
+@keyframes exitPage {
+  from {
+    bottom: -100%;
+    height: 100%;
+  }
+  to {
+    bottom: 0%;
+    height: 100%;
+  }
 }

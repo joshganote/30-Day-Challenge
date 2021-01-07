@@ -19,25 +19,3 @@
     height: 100%;
   }
 }
-
-.leave-page {
-  background-image: url(../assets/background-big.jpg);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-size: cover;
-  background-position: center;
-  animation-name: exitPage;
-  animation-duration: 1s;
-}
-
-@keyframes exitPage {
-  from {
-    bottom: -100%;
-    height: 100%;
-  }
-  to {
-    bottom: 0%;
-    height: 100%;
-  }
-}

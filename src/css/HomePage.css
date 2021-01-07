@@ -25,7 +25,7 @@
   padding-top: 0px;
   padding-left: 8px;
   color: rgba(94, 89, 84, 0.68);
-  font-size: 8vw;
+  font-size: 6vw;
   line-height: 14vh;
   -o-object-fit: fill;
   object-fit: fill;
@@ -34,6 +34,41 @@
 .header-extend {
   width: 60vw;
   color: rgba(255, 255, 255, 0.90);
+}
+
+.nav-arrow {
+  position: absolute;
+  top: 4%;
+  right: 1%;
+  opacity: 0.7;
+  font-size: 4.5em;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1080px) {
+  .homepage-background {
+    position: absolute;
+    overflow: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  .header {
+    top: 20px;
+    height: 10vh;
+    padding-top: 0px;
+    line-height: 10vh;
+    font-family: 'DM Serif Display', sans-serif;
+  }
+
+  .nav-arrow {
+    position: absolute;
+    top: 4%;
+    right: 1%;
+    opacity: 0.7;
+    font-size: 3.5em;
+    color: #ffffff;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -51,6 +86,15 @@
     line-height: 10vh;
     font-family: 'DM Serif Display', sans-serif;
   }
+
+  .nav-arrow {
+    position: absolute;
+    top: 4%;
+    right: 1%;
+    opacity: 0.7;
+    font-size: 4em;
+    color: #ffffff;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -62,14 +106,55 @@
     line-height: 8vh;
     font-family: 'DM Serif Display', sans-serif;
   }
+
+  .nav-arrow {
+    position: absolute;
+    top: 4%;
+    right: 1%;
+    opacity: 0.7;
+    font-size: 2.5em;
+    color: #ffffff;
+  }
 }
 
 @media screen and (max-width: 479px) {
   .header {
     height: 5vh;
     line-height: 5vh;
+    left: 3%;
     font-family: 'DM Serif Display', sans-serif;
   }
+
+  .nav-arrow {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    opacity: 0.7;
+    font-size: 2em;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 289px) {
+  .header {
+    height: 5vh;
+    line-height: 5vh;
+    left: 3%;
+    font-family: 'DM Serif Display', sans-serif;
+  }
+
+  .nav-arrow {
+    position: absolute;
+    top: 3.5%;
+    right: 3%;
+    opacity: 0.7;
+    font-size: 1.6em;
+    color: #ffffff;
+  }
+}
+
+.hide-text {
+  display: none;
 }
 
 /*----- Jared -----*/

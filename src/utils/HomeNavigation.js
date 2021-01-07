@@ -20,23 +20,14 @@ const HomeNavigation = () => {
 
   return (
     <div>
-      <div>
+      <div className="nav-arrow">
         <HiOutlineArrowUp
           onClick={handleReturnToHome}
-          color="#FFFFFF"
-          size="4em"
-          style={{
-            position: 'absolute',
-            right: 0,
-            paddingRight: '10px',
-            top: '25px',
-            cursor: 'pointer',
-            opacity: '0.75',
-          }}
+          style={{cursor: 'pointer'}}
         />
       </div>
       <div id="leave">
-        <h1 className="page-header">JTL</h1>
+        <h1 className="header hide-text">JTL</h1>
       </div>
     </div>
   )
