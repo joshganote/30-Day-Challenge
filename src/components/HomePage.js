@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+import backgroundImage from '../assets/new-background-big.jpg';
 
 import '../css/HomePage.css';
 
@@ -22,7 +23,8 @@ const HomePage = () => {
     }
 
     return (
-        <div className="bkg-image">
+        <div>
+            <img src={backgroundImage} className="homepage-background" />
             <h1 className="header">JTL</h1>
             <div className="jared-container">
                 <button onClick={navigateToJared} className="zone1"></button>

@@ -1,28 +1,74 @@
-.container {
-  width: 100%;
-  height: 100%;
-}
-
-.bkg-image {
-  background: center top no-repeat url(../assets/background-big.jpg);
-  height: 100%;
-  width: 100%;
+.homepage-background {
   position: absolute;
-  background-position: center center;
-  background-repeat: no-repeat;
-  /* background-size: cover; */
+  display: block;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  max-width: none;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .header {
-  font-family: 'DM Serif Display', serif;
-  color: #FFFFFF;
-  font-size: 80px;
-  margin: 0;
-  padding-left: 30px;
+  font-family: 'DM Serif Display', sans-serif;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 14vw;
+  height: 14vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 8px;
+  color: rgba(94, 89, 84, 0.68);
+  font-size: 8vw;
+  line-height: 14vh;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
-/* ----- Jared -----*/
-.hide {
+@media screen and (max-width: 991px) {
+  .homepage-background {
+    position: absolute;
+    overflow: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  .header {
+    top: 20px;
+    height: 10vh;
+    padding-top: 0px;
+    line-height: 10vh;
+    font-family: 'DM Serif Display', sans-serif;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    left: 20px;
+    top: 20px;
+    width: 16vw;
+    height: 8vh;
+    line-height: 8vh;
+    font-family: 'DM Serif Display', sans-serif;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .header {
+    height: 5vh;
+    line-height: 5vh;
+    font-family: 'DM Serif Display', sans-serif;
+  }
+}
+
+/*----- Jared -----*/
+/* .hide {
   display: none;
 }
 
@@ -61,7 +107,7 @@
   background-color: Transparent;
   cursor: pointer;
   outline: none;
-}
+} */
 /* 
 @media screen and (max-width: 900px) {
   .zone1 {
@@ -70,7 +116,7 @@
 } */
 
 /* ----- Matt -----*/
-.matt-container:hover + .hide{
+/* .matt-container:hover + .hide{
   display: block;
   color:white;
   font-family: 'DM Serif Display', serif;
@@ -105,7 +151,7 @@
   background-color: transparent;
   cursor: pointer;
   outline: none;
-}
+} */
 
 /* @media screen and (max-width: 850px) {
   .zone2 {
@@ -114,7 +160,7 @@
 } */
 
 /* ----- Callan -----*/
-.callan-container:hover + .hide{
+/* .callan-container:hover + .hide{
   display: block;
   color:white;
   font-family: 'DM Serif Display', serif;
@@ -149,7 +195,7 @@
   background-color: transparent;
   cursor: pointer;
   outline: none;
-}
+} */
 
 /* @media screen and (max-width: 750px) {
   .zone3 {
@@ -158,7 +204,7 @@
 } */
 
 /* ----- Zane -----*/
-.zane-container:hover + .hide{
+/* .zane-container:hover + .hide{
   display: block;
   color:white;
   font-family: 'DM Serif Display', serif;
@@ -193,16 +239,16 @@
   background-color: transparent;
   cursor: pointer;
   outline: none;
-}
+} */
 
 /* @media screen and (max-width: 750px) {
   .zone4 {
     display: none;
   }
-} */
+}
 
 /* ----- Kyl -----*/
-.kyl-container:hover + .hide{
+/* .kyl-container:hover + .hide{
   display: block;
   color:white;
   font-family: 'DM Serif Display', serif;
@@ -237,9 +283,9 @@
   background-color: transparent;
   cursor: pointer;
   outline: none;
-}
-
-/* @media screen and (max-width: 750px) {
+} */
+/* 
+@media screen and (max-width: 750px) {
   .zone5 {
     display: none;
   }
