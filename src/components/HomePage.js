@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import backgroundImage from '../assets/new-background-big.jpg';
-import { IoIosArrowUp } from 'react-icons/io'
+import { IoIosArrowUp } from 'react-icons/io';
 
 import '../css/HomePage.css';
 import '../css/Animation.css';
@@ -30,7 +30,7 @@ const HomePage = () => {
             <img src={backgroundImage} className="homepage-background" />
             <h1 className="header">JTL</h1>
 
-            <div className="arrow arrow-one">
+            <div className="arrow arrow-one" onClick={navigateToJared}>
                 <IoIosArrowUp />
             </div>
 
