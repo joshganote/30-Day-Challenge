@@ -1,9 +1,10 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import backgroundImage from '../assets/new-background-big.jpg';
+import { IoIosArrowUp } from 'react-icons/io'
 
 import '../css/HomePage.css';
-
+// Change font-soze unit to em
 const HomePage = () => {
     const history = useHistory();
     const navigateToJared = () => {
@@ -26,7 +27,19 @@ const HomePage = () => {
         <div>
             <img src={backgroundImage} className="homepage-background" />
             <h1 className="header">JTL</h1>
-            <div className="jared-container">
+
+            <div className="arrow arrow-one">
+                <IoIosArrowUp />
+            </div>
+
+            <div className="description-box description-one description-text hide-text">
+                <p>Jared Logan</p>
+            </div>
+
+            <div className="arrow arrow-two"><IoIosArrowUp /></div>
+            <div className="arrow arrow-three"><IoIosArrowUp /></div>
+            <div className="arrow arrow-four"><IoIosArrowUp /></div>
+            {/* <div className="jared-container">
                 <button onClick={navigateToJared} className="zone1"></button>
             </div>
             <div className="hide">
@@ -55,7 +68,7 @@ const HomePage = () => {
             </div>
             <div className="hide">
                 <p>Kyl</p>
-            </div>
+            </div> */}
         </div>
     )
 }
