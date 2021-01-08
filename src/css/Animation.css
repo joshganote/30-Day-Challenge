@@ -1,0 +1,75 @@
+/*------ Main Description Arrow ------*/
+.arrow {
+  position: absolute;
+  -o-object-fit: contain;
+  object-fit: contain;
+  font-size: 3em;
+  color: #ffffff;
+  opacity: 0.7;
+  top: 70%;
+  width: 5%;
+  height: 5%;
+  cursor: pointer;
+}
+
+.arrow:hover + .hide-text {
+  display: block;
+  animation-duration: 1s;
+  animation-name: slideUpJared;
+}
+
+@keyframes slideUpJared {
+  from {
+    top: 60%;
+    left: 29%;
+    opacity: 25%;
+  }
+  to {
+    top: 57%;
+    left: 29%;
+    opacity: 100%;
+  }
+}
+
+.arrow-one {
+  left: 34%;
+}
+
+.arrow-two {
+  left: 44%;
+}
+
+.arrow-three {
+  left: 54%;
+}
+
+.arrow-four {
+  left: 64%;
+}
+
+.description-box {
+  position: absolute;
+  text-align: center;
+  width: 12%;
+  height: 5%;
+}
+
+.description-text{
+  color: #f3f0f6;
+  margin: 0;
+  font-family: 'DM Serif Display', sans-serif;
+  font-size: 1.6em;
+  text-shadow: 1px 1px 1px rgba(94, 89, 84), 
+                2px 2px 2px rgba(94, 89, 84), 
+                3px 3px 3px  rgba(94, 89, 84),
+                4px 4px 4px rgba(94, 89, 84);
+  /* text-shadow: 1px 1px rgb(255, 132, 84), 
+                2px 2px rgb(255, 132, 84), 
+                3px 3px rgb(255, 132, 84); */
+}
+
+.description-one {
+  left: 29%;
+  top: 57%;
+  padding: 5px 5px;
+}

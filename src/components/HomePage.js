@@ -4,6 +4,8 @@ import backgroundImage from '../assets/new-background-big.jpg';
 import { IoIosArrowUp } from 'react-icons/io'
 
 import '../css/HomePage.css';
+import '../css/Animation.css';
+
 // Change font-soze unit to em
 const HomePage = () => {
     const history = useHistory();
