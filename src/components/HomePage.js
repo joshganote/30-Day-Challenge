@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+
 import backgroundImage from '../assets/new-background-big.jpg';
 import { IoIosArrowUp } from 'react-icons/io';
 
@@ -30,17 +31,23 @@ const HomePage = () => {
             <img src={backgroundImage} className="homepage-background" />
             <h1 className="header">JTL</h1>
 
-            <div className="arrow arrow-one" onClick={navigateToJared}>
-                <IoIosArrowUp />
-            </div>
-
+            <div className="jared-arrow arrow arrow-one" onClick={navigateToJared}><IoIosArrowUp /></div>
             <div className="description-box description-one description-text hide-text">
                 <p>Jared Logan</p>
             </div>
-
-            <div className="arrow arrow-two"><IoIosArrowUp /></div>
-            <div className="arrow arrow-three"><IoIosArrowUp /></div>
-            <div className="arrow arrow-four"><IoIosArrowUp /></div>
+            <div 
+            className="matt-arrow arrow arrow-two" onClick={navigateToMatt}><IoIosArrowUp /></div>
+            <div className="description-box description-two description-text hide-text">
+                <p>Matthew Boda</p>
+            </div>
+            <div className="arrow arrow-three" onClick={navigateToCallan}><IoIosArrowUp /></div>
+            <div className="description-box description-three description-text hide-text">
+                <p>Callan Searcy</p>
+            </div>
+            <div className="arrow arrow-four" onClick={navigateToZane}><IoIosArrowUp /></div>
+            <div className="description-box description-four description-text hide-text">
+                <p>Kyl Means</p>
+            </div>
             {/* <div className="jared-container">
                 <button onClick={navigateToJared} className="zone1"></button>
             </div>
