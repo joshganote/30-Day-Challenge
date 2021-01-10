@@ -1,0 +1,208 @@
+/* ------ Main Description Arrow ------
+
+
+/*--- Break points for different screen sizes ---*/
+/* @media screen and (max-width: 991px) {
+  .arrow-up {
+    left: 31%;
+  }
+
+  .image-4 {
+    left: 43%;
+  }
+
+  .image-5 {
+    left: 54%;
+  }
+
+  .image-6 {
+    left: 64%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading-2 {
+    left: 20px;
+    top: 20px;
+    width: 16vw;
+    height: 8vh;
+    line-height: 8vh;
+  }
+
+  .arrow-up {
+    left: 25%;
+  }
+
+  .image-4 {
+    left: 41%;
+    width: 5%;
+    height: 5%;
+  }
+
+  .image-5 {
+    left: 57%;
+  }
+
+  .image-6 {
+    left: 71%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading-2 {
+    height: 5vh;
+    line-height: 5vh;
+  }
+
+  .arrow-up {
+    left: 6%;
+    width: 10%;
+    height: 5%;
+  }
+
+  .image-4 {
+    left: 34%;
+    width: 10%;
+  }
+
+  .image-5 {
+    left: 61%;
+    width: 10%;
+  }
+
+  .image-6 {
+    left: 83%;
+    width: 10%;
+  }
+} */
+/* @media screen and (max-width: 1080px) {
+  .arrow-one {
+    left: 20%;
+    font-size: 3em;
+  }
+
+  .arrow-two {
+    left: 38%;
+    font-size: 3em;
+  }
+
+  .arrow-three {
+    left: 58%;
+    font-size: 3em;
+  }
+
+  .arrow-four{
+    left: 75%;
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .arrow-one {
+    left: 32%;
+    font-size: 3em;
+  }
+
+  .arrow-two {
+    left: 43%;
+    font-size: 3em;
+  }
+
+  .arrow-three {
+    left: 54%;
+    font-size: 3em;
+  }
+
+  .arrow-4{
+    left: 64%;
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .arrow-one {
+    left: 20%;
+    font-size: 3em;
+  }
+
+  .arrow-two {
+    left: 38%;
+    font-size: 3em;
+  }
+
+  .arrow-three {
+    left: 55%;
+    font-size: 3em;
+  }
+
+  .arrow-four {
+    left: 75%;
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .arrow-one {
+    left: 20%;
+    font-size: 2em;
+  }
+
+  .arrow-two {
+    left: 38%;
+    font-size: 2em;
+  }
+
+  .arrow-three {
+    left: 55%;
+    font-size: 2em;
+  }
+
+  .arrow-four {
+    left: 75%;
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .arrow-one {
+    left: 10%;
+    font-size: 2em;
+  }
+
+  .arrow-two {
+    left: 34%;
+    font-size: 2em;
+  }
+
+  .arrow-three {
+    left: 60%;
+    font-size: 2em;
+  }
+
+  .arrow-four {
+    left: 80%;
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 289px) {
+  .arrow-one {
+    left: 8%;
+    font-size: 2em;
+  }
+
+  .arrow-two {
+    left: 34%;
+    font-size: 2em;
+  }
+
+  .arrow-three {
+    left: 60%;
+    font-size: 2em;
+  }
+
+  .arrow-four {
+    left: 80%;
+    font-size: 2em;
+  }
+} */

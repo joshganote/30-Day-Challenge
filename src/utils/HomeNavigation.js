@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import { HiOutlineArrowUp } from 'react-icons/hi';
+import { IoIosArrowUp } from 'react-icons/io';
 
 import '../css/HomeNavigation.css';
 
@@ -21,7 +21,7 @@ const HomeNavigation = () => {
   return (
     <div>
       <div className="nav-arrow">
-        <HiOutlineArrowUp
+        <IoIosArrowUp
           onClick={handleReturnToHome}
           style={{cursor: 'pointer'}}
         />
